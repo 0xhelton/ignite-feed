@@ -4,6 +4,53 @@ import "./global.css";
 import styles from "./App.module.css";
 import Sidebar from "./components/Sidebar";
 
+const posts = [
+  {
+    id: 1,
+    author: {
+      avatarUrl: "../src/assets/tux.png",
+      name: "Helton Muniz",
+      role: "Front-End Developer",
+    },
+    content: [
+      {
+        type: "paragraph",
+        content: "Fala galeraa 👋",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
+      },
+      {
+        type: "link",
+        content: "jane.design/doctorcare",
+      },
+    ],
+    publishedAt: new Date("2024-05-03 20:00:00"),
+  },
+  {
+    id: 2,
+    author: {
+      avatarUrl: "../src/assets/prado.jpg",
+      name: "Rafael Prado",
+      role: "Back-End Developer",
+    },
+    content: [
+      {
+        type: "paragraph",
+        content: "Fala galeraa 👋",
+        type: "paragraph",
+        content:
+          "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
+        type: "link",
+        content: "jane.design/doctorcare",
+      },
+    ],
+    publishedAt: new Date("2024-05-10 20:00:00"),
+  },
+];
+
 function App() {
   return (
     <div>
@@ -12,8 +59,9 @@ function App() {
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
-          <Post />
-          <Post />
+          {posts.map((posts) => {
+            return <Post author={posts.author} content={posts.content} publishedAt={posts.publishedAt} />;
+          })}
         </main>
       </div>
     </div>
