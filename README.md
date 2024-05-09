@@ -49,5 +49,3 @@ O Projeto foi desenvolvido com um Layout Exclusivo fornecido através da ferrame
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT.
-
----
