@@ -39,12 +39,15 @@ const posts = [
     content: [
       {
         type: "paragraph",
-        content: "Fala galeraa 👋",
+        content: "Fala pessoal 👋",
+      },
+      {
         type: "paragraph",
-        content:
-          "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
+        content: "Finalmente finalizei meu novo site/portfólio. Foi um baita desafio criar todo o design e codar na unha, mas consegui 💪🏻 ",
+      },
+      {
         type: "link",
-        content: "jane.design/doctorcare",
+        content: "devonlane.design",
       },
     ],
     publishedAt: new Date("2024-05-10 20:00:00"),

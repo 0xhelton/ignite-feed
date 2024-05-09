@@ -166,3 +166,7 @@ button {
   font-weight: 400;
   font-size: 1rem;
 }
+
+p {
+  margin: 0.875rem 0;
+}
