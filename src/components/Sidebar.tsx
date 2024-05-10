@@ -11,7 +11,7 @@ const Sidebar = () => {
         <Avatar src="./imgs/tux.png" />
 
         <strong>Helton Muniz</strong>
-        <span>Web Developer</span>
+        <span>Front-end Developer</span>
       </div>
 
       <footer>
