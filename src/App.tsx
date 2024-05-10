@@ -11,7 +11,7 @@ const posts: PostType[] = [
     author: {
       avatarUrl: "./imgs/tux.png",
       name: "Helton Muniz",
-      role: "Front-End Developer",
+      role: "Front-end Developer",
     },
     content: [
       {
@@ -35,7 +35,7 @@ const posts: PostType[] = [
     author: {
       avatarUrl: "./imgs/prado.jpg",
       name: "Rafael Prado",
-      role: "Back-End Developer",
+      role: "Back-end Developer",
     },
     content: [
       {
