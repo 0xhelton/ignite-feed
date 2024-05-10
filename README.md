@@ -17,7 +17,7 @@ Projeto desenvolvido na Trilha ReactJS do Ignite.
 <p align="center">Você pode acessar o projeto <a href="https://0xhelton.github.io/igniteFeed/">🔗 Clicando Aqui</a></p>
 <br>
 <p align="center">
-  <a href="https://0xhelton.github.io/igniteFeed/"><img alt="projeto Ignite Feed" src=".github/cover.png" width="100%"></a>
+  <a href="https://0xhelton.github.io/igniteFeed/"><img alt="projeto Ignite Feed" src=".github/cover.jpg" width="100%"></a>
 </p>
 
 ## 🚀 Tecnologias
